@@ -1,6 +1,8 @@
 import React from "react";
 import 'antd/dist/antd.css';
 import {Menu, Button} from 'antd';
+import contact from "../img/contact.jpg";
+import DB from "../DB/DB-cn";
 
 class Contact extends React.Component {
 
@@ -43,6 +45,16 @@ class Contact extends React.Component {
                         English
                     </Button>
                 </Menu>
+
+                <img src ={contact} alt = "an contact image" style={{marginTop: 50, marginLeft: 60, width: 750, height: 550}} />
+
+                <div style={{display: "inline-block", float: "right", marginTop: 150, marginRight: 280}}>
+                    <h1 style={{textAlign: "center", fontSize: 35}}>电话</h1>
+                    <h2 style={{textAlign: "center"}}>{DB.phone}</h2>
+                    <br/>
+                    <h1 style={{textAlign: "center", fontSize: 35}}>邮箱</h1>
+                    <h2 style={{textAlign: "center"}}>{DB.email}</h2>
+                </div>
             </div>
         );
     }
