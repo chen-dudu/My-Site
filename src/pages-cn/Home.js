@@ -13,7 +13,7 @@ class Home extends React.Component {
     }
 
     handleClickButton() {
-        this.props.history.push("/");
+        this.props.history.push("/my-site/");
     }
 
     // not being used currently, left here for future
@@ -22,11 +22,11 @@ class Home extends React.Component {
     }
 
     handleClickItemStudy(e) {
-        this.props.history.push("/cn/Study");
+        this.props.history.push("/my-site/cn/Study");
     }
 
     handleClickItemContact(e) {
-        this.props.history.push("/cn/Contact");
+        this.props.history.push("/my-site/cn/Contact");
     }
 
     render() {

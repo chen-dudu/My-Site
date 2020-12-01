@@ -10,7 +10,7 @@ class NotFound extends React.Component {
     }
 
     handleClick(e) {
-        this.props.history.push("/");
+        this.props.history.push("/my-site/");
     }
 
     render() {

@@ -16,13 +16,13 @@ function App() {
             {/*<Route />*/}
 
             {/* english pages */}
-            <Route exact path = "/" component={Home_en}/>
-            <Route exact path = "/Contact" component={Contact_en}/>
+            <Route exact = {true} path = "/my-site/" component={Home_en}/>
+            <Route exact = {true} path = "/my-site/Contact" component={Contact_en}/>
 
 
             {/* chinese pages */}
-            <Route exact path = "/cn/" component={Home_cn}/>
-            <Route exact path = "/cn/Contact" component={Contact_cn}/>
+            <Route exact = {true} path = "/my-site/cn/" component={Home_cn}/>
+            <Route exact = {true} path = "/my-site/cn/Contact" component={Contact_cn}/>
             {/*<Route exact path = "/cn/contact" component={Contact_cn}/>*/}
 
             {/* 404 page in chinese */}

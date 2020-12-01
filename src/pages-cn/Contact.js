@@ -13,15 +13,15 @@ class Contact extends React.Component {
     }
 
     handleClickButton() {
-        this.props.history.push("/Contact");
+        this.props.history.push("/my-site/Contact");
     }
 
     handleClickItemHome(e) {
-        this.props.history.push("/cn/");
+        this.props.history.push("/my-site/cn/");
     }
 
     handleClickItemStudy(e) {
-        this.props.history.push("/cn/Study");
+        this.props.history.push("/my-site/cn/Study");
     }
 
     // not being used currently, left here for future
